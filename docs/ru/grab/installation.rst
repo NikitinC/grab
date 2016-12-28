@@ -34,3 +34,15 @@
 * запускаем команду python.exe setup.py install
 
 Если у вас python 2.7.6, то команда `python setup.py install` выполнится с ошибкой из-за бага в версии python 2.7.6. Вам нужно удалить Python версии 2.7.6 и установить версию 2.7.5
+
+
+Установка под Mac Os X
+======================
+
+Поскольку в Mac Os X установлено несколько python, то следует устанавливать по аналогии с установкой в linux, но с выбором необходимого дистрибутива python `easy_install` или `pip`::
+
+    python3.5 -m pip install pycurl lxml
+
+Далее установите Grab::
+
+    python3.5 -m pip install grab
